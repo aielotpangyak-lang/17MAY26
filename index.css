@@ -128,13 +128,16 @@ html, body {
   100% { opacity: 1; transform: translate3d(0, 0, 0) scale(1); }
 }
 
-.logo-c {
+.heo-red {
   color: var(--red);
-  text-shadow: 0 0 40px var(--red-glow), 0 0 80px var(--red-dim);
+  text-shadow:
+    0 0 40px var(--red-glow),
+    0 0 80px var(--red-dim);
+
   display: inline-block;
 }
 
-.logo-rest {
+.play-white {
   color: var(--white);
   display: inline-block;
 }
@@ -210,8 +213,6 @@ html, body {
   letter-spacing: 0.08em;
   color: var(--white);
 }
-
-.header-logo span { color: var(--red); }
 
 .header-dot {
   width: 8px; height: 8px;
@@ -627,3 +628,4 @@ html, body {
 ::-webkit-scrollbar { width: 4px; }
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 99px; }
+   
